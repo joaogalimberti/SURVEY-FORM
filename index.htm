@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>SURVEY FORM</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <h1 id="title">SURVEY FORM</h1>
+    <p id="description">Thank you for helping me to improve</p>
+    <form method="post" id="survey-form" action='https://servey-form.com.br'>
+
+    <fieldset>
+      <label id="name-label">Name: 
+        <input id="name" placeholder="Full Name" type="text" required/>
+      </label>
+
+      <label id="email-label">Email: 
+        <input id="email" placeholder="example@mail.com" type="email" required/>
+      </label>
+
+      <label id="number-label">Age: 
+        <input id="number" placeholder="12+" type="number" min="12" max="120" required/>
+      </label>
+
+      <label >Which option best describes your current role?
+        <select id="dropdown">
+          <option value="">Select current role</option>
+          <option value="1">Student</option>
+          <option value="2">Part time job</option>
+          <option value="3">Full time job</option>
+          <option value="4">Full time learner</option>
+          <option value="5">Prefer not to say</option>
+          <option value="6">Other</option>
+        </select>
+      </label>
+
+      <label>Do you have an interest in any programming/ development area?</label> 
+      
+      <label>
+        <input id="definit" type="radio" class="inline" name="radio-group" value="7"/>
+         Definitely</label>
+      
+      <label>
+        <input id="personal-account" type="radio" name="radio-group" class="inline" value="8"/> 
+      Maybe</label>
+
+      <label for="personal-account">
+        <input id="personal-account" type="radio" name="radio-group" class="inline" value="9"/> 
+      Not sure</label>
+
+      <label>If you were to choose a specific area to start in, what would it be?
+        <select id="dropdown">
+          <option value="">Select an option</option>
+          <option value="10">Back End</option>
+          <option value="11">Front End</option>
+          <option value="12">Full Stack</option>
+          <option value="13">Other</option>
+        </select>
+      </label>
+
+      <label>Any comments or suggestions? 
+        <textarea type="textarea"  rows="3" cols="30" placeholder="Enter your suggestion here..."></textarea>
+      </label>
+    
+      <input type="submit" id="submit" value="Submit"/>
+
+    </fieldset>
+  </body>
+</html>
