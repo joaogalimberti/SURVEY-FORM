@@ -6,6 +6,9 @@ This is the final project of the Responsive Web Design course offered by FreeCod
 
 The Survey Form project aims to create a user-friendly form for collecting survey responses on a specific topic. It provides a structured and visually appealing interface for users to input their responses.
 
+![image](https://github.com/joaogalimberti/SURVEY-FORM/assets/106310095/0fb6e980-2b3f-4066-bfe6-2c41bb809424)
+
+
 ## 📚 Features
 
 - **Form Structure:** The page contains input fields, checkboxes, radio buttons, and dropdown menus for collecting user responses.
